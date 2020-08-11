@@ -13,10 +13,16 @@
   color: white;
 }
 .headerCon{
-  padding-left: 90px;
   width: 100%;
+  display: inline-block;
 }
 .btn{
   color: azure;
   font-weight: bold;
+  float: left;
+  padding-left: 50px;
+  cursor: pointer;
+}
+.btn:hover{
+  color: darkblue;
 }
