@@ -20,8 +20,10 @@ function App() {
          </div>
         </div>
       </header>
+      <div class="high">
+
+      </div>
     </div>
   );
 }
-
 export default App;

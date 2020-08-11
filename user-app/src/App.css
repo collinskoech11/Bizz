@@ -7,19 +7,20 @@
   min-height: 10vh;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 1vmin);
   color: white;
 }
 .headerCon{
   width: 100%;
   display: inline-block;
+  align-items: right;
 }
 .btn{
   color: azure;
   font-weight: bold;
-  float: left;
+  float: right;
   padding-left: 50px;
   cursor: pointer;
   width: 15%;
@@ -27,5 +28,12 @@
   align-items: center;
 }
 .btn:hover{
-  color: darkblue;
+  color: rgb(139, 0, 127);
+}
+.sticky{
+  height: 40px;
+  position: fixed;
+}
+.high{
+  height: 1000px;
 }
