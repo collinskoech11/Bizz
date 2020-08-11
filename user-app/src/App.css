@@ -17,6 +17,11 @@
   display: inline-block;
   align-items: right;
 }
+@media screen and (max-width:800px){
+  .App-header{
+    font-size: calc(5px + 1vmin);
+  }
+}
 .btn{
   color: azure;
   font-weight: bold;
