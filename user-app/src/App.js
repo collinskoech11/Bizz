@@ -7,7 +7,16 @@ function App() {
       <header className="App-header">
         <div class="headerCon">
          <div class="btn">
-            Hello
+            Home
+         </div>
+         <div class="btn">
+            about
+         </div>
+         <div class="btn">
+            contact
+         </div>
+         <div class="btn">
+            Help
          </div>
         </div>
       </header>
