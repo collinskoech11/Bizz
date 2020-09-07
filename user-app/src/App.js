@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
+import './script.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <div class="headerCon">
-         <div class="btn">
+         <div class="btn" id="active">
             Home
          </div>
          <div class="btn">

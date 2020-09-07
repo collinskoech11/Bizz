@@ -12,6 +12,9 @@
   font-size: calc(10px + 1vmin);
   color: white;
 }
+.script{
+  background-color: black;
+}
 .headerCon{
   width: 100%;
   display: inline-block;
