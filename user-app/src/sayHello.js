@@ -6,7 +6,13 @@ function Hello(){
     };
     return(
         <div>
-            <button onClick={sayHello}>Hello</button>
+            <header>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact us</li>
+                </ul>
+            </header>
         </div>
     );
 }
