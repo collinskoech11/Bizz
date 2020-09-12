@@ -1,29 +1,15 @@
 import React from 'react';
 import './App.css';
 import './script.js';
+import Hello from './sayHello';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <div class="headerCon">
-         <div class="btn" id="active">
-            Home
-         </div>
-         <div class="btn">
-            about
-         </div>
-         <div class="btn">
-            contact
-         </div>
-         <div class="btn">
-            span
-         </div>
-        </div>
-      </header>
-      <div class="high">
-
-      </div>
+function App(){
+  const sayHello = () =>{
+    console.log('sasa');
+  }
+  return(
+    <div>
+      <Hello/>
     </div>
   );
 }
