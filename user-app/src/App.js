@@ -5,7 +5,7 @@ import Hello from './sayHello';
 
 function App(){
   const sayHello = () =>{
-    console.log('sasa');
+    console.log('hello');
   }
   return(
     <div>
