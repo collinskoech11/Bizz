@@ -1,16 +1,21 @@
-.App {
-  text-align: left;
+.upper{
+  height:200px;
+  background-image:linear-gradient(to right,green,red,blue);
 }
-header{
-  width: 100%;
-  padding-left: 45%;
+.lower{
+  height: 200px;
+  background-image:linear-gradient(to right,green,red,blue);
 }
-header ul{
-  display:inline-block;
-  width: 50%;
-  list-style: none;
+.bg{
+  background-color:red;
+  justify-content: center;
+  align-items: center;
+  flex:0 1 34rem;
 }
-header ul li{
-  float: left;
-  width:20%;
+.image{
+  max-width: 36rem;
+  max-height: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
